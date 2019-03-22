@@ -1,0 +1,33 @@
+
+.modal{
+  display: none;
+  vertical-align: middle;
+  z-index: 2;
+  margin-top: 200px;
+}
+
+.modal-backdrop {
+    z-index: -1;
+  }
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}

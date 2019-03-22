@@ -1,0 +1,35 @@
+.my-nav {
+    background-color: #DBD7D1;
+}
+
+.my-nav .navbar-brand {
+    color: aliceblue;
+}
+
+.my-nav .navbar-brand:hover {
+    color: aquamarine;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link .navbar-light .navbar-nav .nav-link {
+    color: #3f2315;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff0000;
+}
+
+.navbar-light .dropdown-menu {
+    background-color: lightpink;
+}
+
+.navbar-light .navbar-toggler {
+    color: #3f2315;
+    border-color: #3f2315;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3f2315;
+}
